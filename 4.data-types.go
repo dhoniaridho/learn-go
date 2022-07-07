@@ -32,8 +32,11 @@ func main() {
 	var o complex64 = 3343434             // Complex numbers with float32 real and imaginary parts
 	var p complex128 = 945804958408054850 // Complex numbers with float64 real and imaginary parts
 
+	var say = "Hello" + "World"
+
 	fmt.Println("Signed Variables", a, b, c, d, e)
 	fmt.Println("Unsigned Variables", f, g, h, i, j)
 	fmt.Println("Boolean", k, l)
 	fmt.Println("Float", m, n, o, p)
+	fmt.Println("String", say)
 }
